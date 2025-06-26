@@ -9,14 +9,14 @@ The objective of this task was to perform a basic vulnerability scan on my perso
 ## Task Steps & Process
 
 
-### 1. Install OpenVAS or Nessus Essentials.
+### Installing OpenVAS
 * I chose to install Greenbone Community Edition (OpenVAS) on my Kali Linux system.
 * The installation process involved using `sudo apt install openvas`, which informed that `gvm` would be installed instead of `openvas`.
 * Dependencies such as `gvm`, `greenbone-feed-sync`, `greenbone-security-assistant`, `gsad`, and `gvm-tools` were installed.
 * Following the installation, `sudo gvm-setup` was executed to configure the Greenbone environment, including starting the PostgreSQL service.
-* Screenshots of the installation process are included in the `screenshots/` directory.
 
-### 2. Set up scan target as your local machine IP or localhost.
+
+### Setting up scan target as localhost.
 * After accessing the Greenbone Security Assistant (GSA) web interface (typically at `https://192.168.0.1`), I navigated to the "Tasks" section.
 * A "New Task" was created, named "My pc scan".
 * The scan target was explicitly set to `localhost`.
@@ -53,8 +53,7 @@ Based on the scan results, the following are the most critical and notable vulne
     * **Boa Webserver Terminal Escape Sequence in Logs Command Injection Vulnerability (CVE-2009-4496)**: This indicates a potential command injection vulnerability in the Boa web server related to how it handles terminal escape sequences in logs.
         * **Proposed Mitigation**: If the Boa webserver is in use, update it to the latest patched version. If not needed, disable or remove it.
 
-### Take screenshots of the scan results.
-Screenshots documenting the entire process, from installation to the final scan results, are included in the `screenshots/` directory within this repository.
+### screenshots of the scan results.
 
 * ![Greenbone (OpenVAS) Installation and Setup](https://github.com/user-attachments/assets/558f9922-c832-4a21-88f7-d6354fcadbfe)
 * ![Greenbone Dashboards - Initial View](https://github.com/user-attachments/assets/6857e851-4280-4f81-9f86-714e237a526a)
