@@ -59,7 +59,15 @@ Screenshots documenting the entire process, from installation to the final scan 
 * ![Greenbone (OpenVAS) Installation and Setup](https://github.com/user-attachments/assets/558f9922-c832-4a21-88f7-d6354fcadbfe)
 * ![Greenbone Dashboards - Initial View](https://github.com/user-attachments/assets/6857e851-4280-4f81-9f86-714e237a526a)
 * ![Creating a New Scan Task](https://github.com/user-attachments/assets/b109caeb-196a-4f84-80f9-7cccf520fe54)
-* ![Scan Reports Overview]()
-* ![Detailed Vulnerability List](screenshots/detailed_vulnerabilities.png)
+* ![Scan Reports Overview](https://github.com/user-attachments/assets/7fed5a64-0044-4ffa-8051-3f624e9c7eac)
+* ![Detailed Vulnerability List](https://github.com/user-attachments/assets/f8b509a4-ec3f-4194-ab7c-ec0e9a5d034d)
 
+## Outcome
+This task provided valuable introductory vulnerability assessment experience and enhanced my understanding of common PC risks and the use of security tools like OpenVAS/Greenbone.
 
+## Key Concepts Explored
+* Vulnerability scanning
+* Risk assessment
+* CVSS (Common Vulnerability Scoring System)
+* Remediation
+* Security tools
